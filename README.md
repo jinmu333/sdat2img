@@ -1,4 +1,4 @@
-./sdat2img.py system.transfer.list system.new.dat system.img
+./sdat2img.py system.transfer.list system.new.dat system.img \
 sudo mount -t ext4 -o loop,ro,noexec,noload system.img system
 
 # sdat2img
