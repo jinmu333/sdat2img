@@ -1,10 +1,11 @@
-./sdat2img.py system.transfer.list system.new.dat system.img \
-sudo mount -t ext4 -o loop,ro,noexec,noload system.img system
-
 # sdat2img
 Convert sparse Android data image (.dat) into filesystem ext4 image (.img)
 
-
+## use
+```bash
+./sdat2img.py system.transfer.list system.new.dat system.img 
+sudo mount -t ext4 -o loop,ro,noexec,noload system.img system
+```
 
 ## Requirements
 This binary requires Python 2.7 or newer installed on your system.
